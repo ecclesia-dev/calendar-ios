@@ -29,6 +29,12 @@
 		A20007 /* Precedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
 		A20008 /* LiturgicalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
 		A20009 /* WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D20000; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10014 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014; };
+		A10015 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015; };
+		A10016 /* ReadingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016; };
+		A10017 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10017; };
+		A20010 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014; };
+		A20011 /* ReadingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,10 @@
 		B10013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20001 /* LiturgicalCalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiturgicalCalendarWidget.swift; sourceTree = "<group>"; };
 		B20002 /* LiturgicalCalendarWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiturgicalCalendarWidgetBundle.swift; sourceTree = "<group>"; };
+		B10014 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B10015 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B10016 /* ReadingsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingsData.swift; sourceTree = "<group>"; };
+		B10017 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D10000 /* LiturgicalCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiturgicalCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20000 /* LiturgicalCalendarWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiturgicalCalendarWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,6 +131,7 @@
 				B10004 /* CalendarMonthView.swift */,
 				B10005 /* DayDetailView.swift */,
 				B10006 /* SanctoralListView.swift */,
+				B10017 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +145,9 @@
 				B10010 /* SanctoralCycle.swift */,
 				B10011 /* Precedence.swift */,
 				B10012 /* LiturgicalCalendar.swift */,
+				B10014 /* Theme.swift */,
+				B10015 /* NotificationManager.swift */,
+				B10016 /* ReadingsData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +266,10 @@
 				A10010 /* SanctoralCycle.swift in Sources */,
 				A10011 /* Precedence.swift in Sources */,
 				A10012 /* LiturgicalCalendar.swift in Sources */,
+				A10014 /* Theme.swift in Sources */,
+				A10015 /* NotificationManager.swift in Sources */,
+				A10016 /* ReadingsData.swift in Sources */,
+				A10017 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +285,8 @@
 				A20006 /* SanctoralCycle.swift in Sources */,
 				A20007 /* Precedence.swift in Sources */,
 				A20008 /* LiturgicalCalendar.swift in Sources */,
+				A20010 /* Theme.swift in Sources */,
+				A20011 /* ReadingsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

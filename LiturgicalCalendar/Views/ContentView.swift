@@ -22,7 +22,14 @@ struct ContentView: View {
             .tabItem {
                 Label("Saints", systemImage: "person.3.fill")
             }
+
+            NavigationStack {
+                SettingsView()
+            }
+            .tabItem {
+                Label("Settings", systemImage: "gearshape.fill")
+            }
         }
-        .tint(.primary)
+        .tint(LiturgicalTheme.burgundy)
     }
 }

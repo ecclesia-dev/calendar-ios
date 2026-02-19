@@ -13,37 +13,48 @@ struct SanctoralListView: View {
     var body: some View {
         List {
             ForEach(grouped, id: \.0) { monthName, feasts in
-                Section(header: Text(monthName).font(.custom("Georgia-Bold", size: 14))) {
+                Section {
                     ForEach(feasts, id: \.celebration.id) { feast in
                         HStack(spacing: 12) {
-                            RoundedRectangle(cornerRadius: 3)
+                            // Color bar
+                            RoundedRectangle(cornerRadius: 2)
                                 .fill(feast.celebration.color.color)
-                                .frame(width: 6)
-                            VStack(alignment: .leading, spacing: 3) {
+                                .frame(width: 5)
+
+                            VStack(alignment: .leading, spacing: 4) {
                                 Text(feast.celebration.titleVernacular)
                                     .font(.custom("Georgia", size: 15))
+                                    .foregroundColor(LiturgicalTheme.bodyText)
                                 Text(feast.celebration.title)
                                     .font(.custom("Georgia-Italic", size: 12))
-                                    .foregroundStyle(.secondary)
-                                HStack {
+                                    .foregroundColor(LiturgicalTheme.subtitleText)
+                                HStack(spacing: 6) {
                                     Text("\(monthAbbr(feast.month)) \(feast.day)")
                                         .font(.custom("Georgia", size: 11))
-                                        .foregroundStyle(.tertiary)
                                     Text("•")
-                                        .foregroundStyle(.tertiary)
                                     Text(feast.celebration.rank.displayName)
                                         .font(.custom("Georgia", size: 11))
-                                        .foregroundStyle(.tertiary)
+                                    Text("•")
+                                    Text(feast.celebration.color.displayName)
+                                        .font(.custom("Georgia", size: 11))
                                 }
+                                .foregroundColor(LiturgicalTheme.subtitleText.opacity(0.7))
                             }
                             Spacer()
                         }
                         .padding(.vertical, 4)
+                        .listRowBackground(LiturgicalTheme.cardBackground)
                     }
+                } header: {
+                    Text(monthName)
+                        .font(.custom("Georgia-Bold", size: 14))
+                        .foregroundColor(LiturgicalTheme.burgundy)
                 }
             }
         }
         .listStyle(.insetGrouped)
+        .scrollContentBackground(.hidden)
+        .background(LiturgicalTheme.background)
         .navigationTitle("Sanctoral Cycle")
     }
 
