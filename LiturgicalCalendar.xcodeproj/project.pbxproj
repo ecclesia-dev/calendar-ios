@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* LiturgicalCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002; };
+		A10003 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003; };
+		A10004 /* CalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004; };
+		A10005 /* DayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005; };
+		A10006 /* SanctoralListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006; };
+		A10007 /* LiturgicalTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007; };
+		A10008 /* Computus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008; };
+		A10009 /* TemporalCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009; };
+		A10010 /* SanctoralCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010; };
+		A10011 /* Precedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
+		A10012 /* LiturgicalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
+		A10013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10013; };
+		A20001 /* LiturgicalCalendarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20001; };
+		A20002 /* LiturgicalCalendarWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20002; };
+		A20003 /* LiturgicalTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007; };
+		A20004 /* Computus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008; };
+		A20005 /* TemporalCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009; };
+		A20006 /* SanctoralCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010; };
+		A20007 /* Precedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011; };
+		A20008 /* LiturgicalCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012; };
+		A20009 /* WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D20000; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C20001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00001;
+			proxyType = 1;
+			remoteGlobalIDString = D20000;
+			remoteInfo = LiturgicalCalendarWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F10001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A20009 /* WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B10001 /* LiturgicalCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiturgicalCalendarApp.swift; sourceTree = "<group>"; };
+		B10002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10003 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		B10004 /* CalendarMonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonthView.swift; sourceTree = "<group>"; };
+		B10005 /* DayDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailView.swift; sourceTree = "<group>"; };
+		B10006 /* SanctoralListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanctoralListView.swift; sourceTree = "<group>"; };
+		B10007 /* LiturgicalTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiturgicalTypes.swift; sourceTree = "<group>"; };
+		B10008 /* Computus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computus.swift; sourceTree = "<group>"; };
+		B10009 /* TemporalCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporalCycle.swift; sourceTree = "<group>"; };
+		B10010 /* SanctoralCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanctoralCycle.swift; sourceTree = "<group>"; };
+		B10011 /* Precedence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Precedence.swift; sourceTree = "<group>"; };
+		B10012 /* LiturgicalCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiturgicalCalendar.swift; sourceTree = "<group>"; };
+		B10013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20001 /* LiturgicalCalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiturgicalCalendarWidget.swift; sourceTree = "<group>"; };
+		B20002 /* LiturgicalCalendarWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiturgicalCalendarWidgetBundle.swift; sourceTree = "<group>"; };
+		D10000 /* LiturgicalCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiturgicalCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20000 /* LiturgicalCalendarWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiturgicalCalendarWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00001 = {
+			isa = PBXGroup;
+			children = (
+				G10000 /* LiturgicalCalendar */,
+				G20000 /* LiturgicalCalendarWidget */,
+				G30000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10000 /* LiturgicalCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* LiturgicalCalendarApp.swift */,
+				G10001 /* Views */,
+				G10002 /* Models */,
+				B10013 /* Assets.xcassets */,
+			);
+			path = LiturgicalCalendar;
+			sourceTree = "<group>";
+		};
+		G10001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10002 /* ContentView.swift */,
+				B10003 /* TodayView.swift */,
+				B10004 /* CalendarMonthView.swift */,
+				B10005 /* DayDetailView.swift */,
+				B10006 /* SanctoralListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G10002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10007 /* LiturgicalTypes.swift */,
+				B10008 /* Computus.swift */,
+				B10009 /* TemporalCycle.swift */,
+				B10010 /* SanctoralCycle.swift */,
+				B10011 /* Precedence.swift */,
+				B10012 /* LiturgicalCalendar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G20000 /* LiturgicalCalendarWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B20001 /* LiturgicalCalendarWidget.swift */,
+				B20002 /* LiturgicalCalendarWidgetBundle.swift */,
+			);
+			path = LiturgicalCalendarWidget;
+			sourceTree = "<group>";
+		};
+		G30000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10000 /* LiturgicalCalendar.app */,
+				D20000 /* LiturgicalCalendarWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10000 /* LiturgicalCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X10000;
+			buildPhases = (
+				S10000 /* Sources */,
+				F20001 /* Frameworks */,
+				R10000 /* Resources */,
+				F10001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEP10001,
+			);
+			name = LiturgicalCalendar;
+			productName = LiturgicalCalendar;
+			productReference = D10000;
+			productType = "com.apple.product-type.application";
+		};
+		T20000 /* LiturgicalCalendarWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X20000;
+			buildPhases = (
+				S20000 /* Sources */,
+				F20002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiturgicalCalendarWidgetExtension;
+			productName = LiturgicalCalendarWidgetExtension;
+			productReference = D20000;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					T10000 = { CreatedOnToolsVersion = 15.0; };
+					T20000 = { CreatedOnToolsVersion = 15.0; };
+				};
+			};
+			buildConfigurationList = X00000;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = G00001;
+			productRefGroup = G30000;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10000 /* LiturgicalCalendar */,
+				T20000 /* LiturgicalCalendarWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R10000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10013 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* LiturgicalCalendarApp.swift in Sources */,
+				A10002 /* ContentView.swift in Sources */,
+				A10003 /* TodayView.swift in Sources */,
+				A10004 /* CalendarMonthView.swift in Sources */,
+				A10005 /* DayDetailView.swift in Sources */,
+				A10006 /* SanctoralListView.swift in Sources */,
+				A10007 /* LiturgicalTypes.swift in Sources */,
+				A10008 /* Computus.swift in Sources */,
+				A10009 /* TemporalCycle.swift in Sources */,
+				A10010 /* SanctoralCycle.swift in Sources */,
+				A10011 /* Precedence.swift in Sources */,
+				A10012 /* LiturgicalCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		S20000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20001 /* LiturgicalCalendarWidget.swift in Sources */,
+				A20002 /* LiturgicalCalendarWidgetBundle.swift in Sources */,
+				A20003 /* LiturgicalTypes.swift in Sources */,
+				A20004 /* Computus.swift in Sources */,
+				A20005 /* TemporalCycle.swift in Sources */,
+				A20006 /* SanctoralCycle.swift in Sources */,
+				A20007 /* Precedence.swift in Sources */,
+				A20008 /* LiturgicalCalendar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEP10001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = T20000;
+			targetProxy = C20001;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Liturgical Calendar";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liturgical.calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC1002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Liturgical Calendar";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liturgical.calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC2001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Liturgical Day";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liturgical.calendar.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC2002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Liturgical Day";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liturgical.calendar.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		X00000 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0001 /* Debug */,
+				BC0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X10000 /* Build configuration list for PBXNativeTarget LiturgicalCalendar */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1001 /* Debug */,
+				BC1002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X20000 /* Build configuration list for PBXNativeTarget LiturgicalCalendarWidgetExtension */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2001 /* Debug */,
+				BC2002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E00001 /* Project object */;
+}
